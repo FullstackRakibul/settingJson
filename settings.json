@@ -1,0 +1,24 @@
+{
+    "files.autoSave":"onFocusChange",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDelete": false,
+    "editor.fontVariations": false,
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "'cascadia code'",
+    "editor.fontLigatures": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        
+    }
+}
