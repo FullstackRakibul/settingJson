@@ -75,14 +75,10 @@
     "editor.formatOnSave": false
   },
 
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true
-  },
-
   "autoprefixer.options": {
     "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
   },
-  "workbench.editor.highlightModifiedTabs": true
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.trimFinalNewlines": true
 
 }
