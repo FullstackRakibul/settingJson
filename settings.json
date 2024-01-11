@@ -14,11 +14,75 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.wordWrap": "on",
+//    "editor.wordWrap": "on",
     "editor.cursorBlinking": "expand",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        
-    }
+
+    },
+
+
+    // custom
+    "editor.formatOnPaste": true,
+    "editor.guides.bracketPairs": true,
+    "editor.renderWhitespace": "all",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.snippetSuggestions": "top",
+  "editor.stickyScroll.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+
+  "explorer.confirmDragAndDrop": false,
+
+  "files.autoSaveDelay": 500,
+  "files.exclude": {
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/node_modules": false
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "emmet.includeLanguages": {
+    "markdown": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "html",
+    "typescript": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
+
+  "[javascript, javascriptreact, typescript, scss, jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "autoprefixer.options": {
+    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+  },
+  "workbench.editor.highlightModifiedTabs": true
+
 }
